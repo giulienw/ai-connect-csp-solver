@@ -14,7 +14,7 @@ def main():
     # Examples:
     # file_path = "data/zebra-logic-bench.parquet"
     # file_path = "data/zebra-logic-bench.jsonl"
-    file_path = os.environ.get("ZEBRA_DATA_PATH", "data/zebra-logic-bench.parquet")
+    file_path = os.environ.get("ZEBRA_DATA_PATH", "data/test-00000-of-00001.parquet")
 
     if not os.path.exists(file_path):
         print(f"Error: File '{file_path}' not found. Set ZEBRA_DATA_PATH or update file_path.")

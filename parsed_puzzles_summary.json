@@ -1,0 +1,6002 @@
+[
+  {
+    "id": "lgp-test-5x6-16",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 23
+  },
+  {
+    "id": "lgp-test-4x4-27",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-6x4-15",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-6x5-2",
+    "size": "6*5",
+    "variables": 24,
+    "constraints": 29
+  },
+  {
+    "id": "lgp-test-2x2-33",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-4x4-3",
+    "size": "4*4",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x4-5",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x5-30",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-3x5-34",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-4x5-3",
+    "size": "4*5",
+    "variables": 16,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x6-24",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x2-9",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-4x2-18",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x2-15",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x4-2",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-4x4-21",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-5x6-0",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-2x3-9",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-5x5-12",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-3x5-16",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-4x3-10",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x6-30",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-3x5-30",
+    "size": "3*5",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x3-27",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x2-22",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x3-36",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x2-14",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x5-34",
+    "size": "4*5",
+    "variables": 16,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-3x6-5",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-5x6-10",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 29
+  },
+  {
+    "id": "lgp-test-5x2-30",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-6x5-20",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-5x6-37",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-4x4-16",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x5-4",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-3x6-9",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-4x6-36",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-5x5-0",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x3-13",
+    "size": "2*3",
+    "variables": 4,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-4x2-26",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-2x3-16",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x3-24",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x6-12",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-2x6-25",
+    "size": "2*6",
+    "variables": 10,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x3-26",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x6-29",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-2x6-14",
+    "size": "2*6",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x5-30",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x5-21",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x4-33",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x2-28",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x6-5",
+    "size": "6*6",
+    "variables": 30,
+    "constraints": 29
+  },
+  {
+    "id": "lgp-test-2x2-18",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-2x6-29",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x2-14",
+    "size": "4*2",
+    "variables": 4,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-4x6-29",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-5x3-26",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x6-3",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-3x2-21",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-4x6-26",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-4x6-21",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-3x4-19",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x2-38",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-3x6-26",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-3x6-4",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-6x3-39",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-3x5-14",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-2x2-16",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-3x2-2",
+    "size": "3*2",
+    "variables": 3,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-2x2-1",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-2x2-38",
+    "size": "2*2",
+    "variables": 2,
+    "constraints": 3
+  },
+  {
+    "id": "lgp-test-3x4-10",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x4-13",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-3x3-7",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x4-26",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x4-16",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-5x4-33",
+    "size": "5*4",
+    "variables": 15,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-6x4-11",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-2x3-36",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-6x4-31",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-5x6-32",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-4x4-28",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-2x6-17",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x3-2",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-3x2-0",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-5x6-5",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-6x4-29",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-3x4-13",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x5-18",
+    "size": "4*5",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-2x2-24",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-5x4-14",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-3x2-10",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x2-24",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x5-8",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-2x2-34",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-6x5-8",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-3x6-38",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-5x2-7",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x4-18",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x3-8",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-5x3-28",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-3x4-2",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x5-19",
+    "size": "6*5",
+    "variables": 24,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-6x5-24",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-5x2-6",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x5-39",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-6x5-14",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 29
+  },
+  {
+    "id": "lgp-test-5x5-11",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-3x4-7",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x5-7",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-6x2-7",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-3x2-29",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x2-36",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x2-28",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-3x6-14",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-6x2-19",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x4-36",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x6-0",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-3x3-1",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x5-29",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x4-36",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-4x2-17",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x3-20",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-2x6-38",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x6-25",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-3x5-5",
+    "size": "3*5",
+    "variables": 12,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-6x2-23",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x4-22",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-6x5-29",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-4x4-35",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-6x3-24",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-6x2-36",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x3-37",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-3x5-39",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-4x6-34",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-5x6-28",
+    "size": "5*6",
+    "variables": 25,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-2x6-28",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x3-26",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x5-35",
+    "size": "3*5",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x6-39",
+    "size": "5*6",
+    "variables": 25,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-6x4-22",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-6x5-0",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 28
+  },
+  {
+    "id": "lgp-test-6x5-22",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-3x5-10",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x5-7",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-3x6-36",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-4x3-23",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x6-33",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-3x4-31",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x4-0",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-5x5-24",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-6x5-1",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-4x3-21",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x5-2",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-5x2-31",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x4-10",
+    "size": "4*4",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x6-35",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x3-16",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x4-13",
+    "size": "5*4",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-5x5-20",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-4x6-17",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-2x5-37",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x2-12",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x6-32",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-6x6-9",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 32
+  },
+  {
+    "id": "lgp-test-5x4-8",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-3x6-1",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-6x2-16",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x2-1",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-2x4-12",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x4-37",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-4x4-9",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-4x3-11",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x3-11",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x3-13",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-5x6-9",
+    "size": "5*6",
+    "variables": 25,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-5x3-30",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x5-9",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x2-37",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-6x6-31",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 35
+  },
+  {
+    "id": "lgp-test-3x5-22",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-3x4-28",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x5-16",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x4-8",
+    "size": "2*4",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x5-7",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-4x3-35",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x6-21",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-6x3-10",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-6x4-12",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-3x6-15",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x6-18",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-2x2-26",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-3x5-29",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-4x4-19",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-4x3-34",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x2-17",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x4-17",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-2x3-10",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x2-11",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x6-21",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-6x4-3",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x6-13",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x5-27",
+    "size": "2*5",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x2-19",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x6-1",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 33
+  },
+  {
+    "id": "lgp-test-2x5-28",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x6-15",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 31
+  },
+  {
+    "id": "lgp-test-2x3-39",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x6-15",
+    "size": "5*6",
+    "variables": 25,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-3x4-22",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x6-35",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-4x5-5",
+    "size": "4*5",
+    "variables": 16,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-5x6-14",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-3x2-31",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x2-25",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-6x2-0",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x6-1",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-4x4-29",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x3-0",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-4x4-14",
+    "size": "4*4",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x4-39",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x3-37",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x5-24",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-2x2-29",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-6x4-30",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x5-1",
+    "size": "2*5",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x2-5",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x3-21",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-6x3-31",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-4x6-12",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x2-5",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-6x5-6",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-5x2-39",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x2-39",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x5-9",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-2x6-33",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x5-32",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-5x2-26",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x6-11",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-2x2-17",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-5x5-22",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-6x4-34",
+    "size": "6*4",
+    "variables": 18,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-4x4-30",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-4x6-13",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x5-18",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x6-31",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x2-4",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-4x3-3",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x2-20",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-3x2-13",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-2x3-24",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-4x2-11",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x4-21",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-3x5-13",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x6-32",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x3-24",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-3x3-22",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x3-7",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x2-10",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-3x2-32",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x6-35",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-5x4-1",
+    "size": "5*4",
+    "variables": 15,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-6x2-4",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x4-2",
+    "size": "4*4",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-3x6-0",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-6x2-38",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-3x2-36",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x2-27",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-6x5-37",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-4x6-22",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-3x3-32",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x2-1",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-2x2-13",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-4x2-27",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x2-39",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-2x4-4",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-4x5-12",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x6-12",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x4-9",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x4-5",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-3x5-9",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x4-3",
+    "size": "5*4",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-3x4-38",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x3-14",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-3x3-9",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x3-6",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-3x3-39",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x3-15",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x4-21",
+    "size": "6*4",
+    "variables": 18,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-5x6-1",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 28
+  },
+  {
+    "id": "lgp-test-4x5-27",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-2x6-20",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x5-37",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-5x2-28",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x2-23",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x3-3",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x2-10",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-2x6-39",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x2-25",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x5-14",
+    "size": "4*5",
+    "variables": 16,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x2-31",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-4x6-19",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-4x2-4",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x3-37",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x3-4",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x6-11",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-3x6-12",
+    "size": "3*6",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-5x5-2",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-4x2-0",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x3-38",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-4x5-17",
+    "size": "4*5",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-4x6-15",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-4x5-28",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-5x4-30",
+    "size": "5*4",
+    "variables": 15,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-2x3-1",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-6x4-5",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-5x2-32",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x3-18",
+    "size": "6*3",
+    "variables": 12,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-2x5-19",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x6-25",
+    "size": "3*6",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-4x3-16",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x5-12",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-6x2-13",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x5-20",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x2-24",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x5-0",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-5x4-28",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-4x3-17",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x3-33",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-3x5-6",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-2x5-6",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x5-12",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x2-17",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-3x6-37",
+    "size": "3*6",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x4-35",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-6x6-33",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-4x2-15",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x6-35",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-3x3-18",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x4-33",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x2-9",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-2x6-2",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x4-24",
+    "size": "3*4",
+    "variables": 9,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x4-6",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x3-4",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-5x2-35",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x5-33",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x3-28",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x3-38",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-6x2-33",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x5-15",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-5x3-39",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-5x4-39",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-3x2-37",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x3-25",
+    "size": "3*3",
+    "variables": 6,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-2x4-10",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x2-35",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x3-22",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x3-14",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x3-17",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x5-23",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-4x2-6",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-3x6-20",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x5-4",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x4-11",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-6x2-2",
+    "size": "6*2",
+    "variables": 6,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x4-20",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-4x2-30",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x5-25",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 29
+  },
+  {
+    "id": "lgp-test-5x4-23",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-3x4-14",
+    "size": "3*4",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x3-38",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-3x2-12",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-6x4-38",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-2x2-37",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 3
+  },
+  {
+    "id": "lgp-test-6x3-20",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-6x4-18",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-2x5-5",
+    "size": "2*5",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x2-23",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-6x2-39",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x6-16",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 33
+  },
+  {
+    "id": "lgp-test-2x4-21",
+    "size": "2*4",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-2x4-35",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x2-35",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x5-30",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 29
+  },
+  {
+    "id": "lgp-test-2x5-0",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-3x6-24",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x3-7",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-2x6-11",
+    "size": "2*6",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x4-37",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-3x5-4",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-6x4-0",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-3x3-23",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x5-25",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x3-3",
+    "size": "2*3",
+    "variables": 4,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-4x4-24",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-2x4-6",
+    "size": "2*4",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x6-16",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-4x5-10",
+    "size": "4*5",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-6x6-24",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-6x3-11",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-3x5-25",
+    "size": "3*5",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-4x2-3",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x2-26",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-6x6-27",
+    "size": "6*6",
+    "variables": 30,
+    "constraints": 29
+  },
+  {
+    "id": "lgp-test-2x6-4",
+    "size": "2*6",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x5-15",
+    "size": "3*5",
+    "variables": 9,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x2-0",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x4-36",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-4x3-32",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x3-7",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x4-27",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x3-16",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-2x5-35",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x3-18",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x4-0",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x2-7",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-2x5-34",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x6-27",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-5x5-37",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-6x6-25",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 32
+  },
+  {
+    "id": "lgp-test-3x6-23",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-6x2-1",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x3-8",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-6x2-6",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-4x5-16",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-4x4-23",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-5x5-17",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-4x5-39",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-4x5-24",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-3x5-36",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-3x2-6",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-6x4-8",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-5x2-11",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x4-31",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-4x5-11",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-3x3-19",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x5-33",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-6x3-12",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x3-23",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-4x2-34",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x5-19",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-4x4-33",
+    "size": "4*4",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-5x5-28",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-4x4-7",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-4x5-4",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-6x4-13",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-6x5-32",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 28
+  },
+  {
+    "id": "lgp-test-2x6-26",
+    "size": "2*6",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x3-33",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-3x5-23",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-3x6-17",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-6x4-23",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-3x6-8",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-4x6-8",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-3x3-35",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x4-10",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-3x3-26",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x6-22",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-6x5-17",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-4x5-13",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-2x2-22",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 3
+  },
+  {
+    "id": "lgp-test-4x5-22",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x4-17",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-3x4-15",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x3-20",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x6-37",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x4-27",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-3x3-21",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-3x4-30",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x6-19",
+    "size": "6*6",
+    "variables": 30,
+    "constraints": 31
+  },
+  {
+    "id": "lgp-test-2x6-0",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x2-2",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-4x5-19",
+    "size": "4*5",
+    "variables": 12,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x6-16",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x5-6",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-5x6-33",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-6x2-18",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x6-18",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 23
+  },
+  {
+    "id": "lgp-test-5x5-36",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-3x4-17",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x4-11",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x5-9",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-4x3-9",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x3-5",
+    "size": "5*3",
+    "variables": 10,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-2x2-14",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-4x4-0",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-6x6-36",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 31
+  },
+  {
+    "id": "lgp-test-6x3-28",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-4x2-31",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x4-15",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-4x4-22",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-3x3-20",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x5-8",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x6-19",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x6-4",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-3x6-35",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-4x4-15",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-2x2-35",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-4x3-2",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x5-7",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 28
+  },
+  {
+    "id": "lgp-test-5x3-19",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-5x2-36",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x4-18",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-3x5-17",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-2x2-12",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-5x4-4",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-2x4-36",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x3-6",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x2-7",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x2-15",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x4-32",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x5-38",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-4x3-31",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x2-4",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-3x2-27",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x4-1",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-2x2-39",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-3x6-31",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-2x4-30",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x2-32",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x2-12",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x6-2",
+    "size": "6*6",
+    "variables": 24,
+    "constraints": 33
+  },
+  {
+    "id": "lgp-test-4x2-21",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-3x5-20",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-2x6-23",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x6-37",
+    "size": "6*6",
+    "variables": 30,
+    "constraints": 31
+  },
+  {
+    "id": "lgp-test-4x2-22",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-2x6-21",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x4-24",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-6x3-21",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-5x3-9",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-5x5-25",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 23
+  },
+  {
+    "id": "lgp-test-5x4-20",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-2x4-25",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x4-39",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-5x3-11",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-3x6-6",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-5x2-19",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x4-25",
+    "size": "6*4",
+    "variables": 18,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-3x4-35",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x3-2",
+    "size": "2*3",
+    "variables": 4,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-2x5-10",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x3-0",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x5-31",
+    "size": "2*5",
+    "variables": 8,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x6-28",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-2x2-36",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-2x5-32",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x3-36",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x6-0",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 31
+  },
+  {
+    "id": "lgp-test-5x2-1",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x2-37",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x3-12",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x6-25",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-3x3-28",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-2x5-13",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-3x5-21",
+    "size": "3*5",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x2-3",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-2x3-5",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-3x4-3",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x3-12",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x5-28",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-2x3-12",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-6x2-21",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x6-19",
+    "size": "5*6",
+    "variables": 25,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-6x6-17",
+    "size": "6*6",
+    "variables": 30,
+    "constraints": 32
+  },
+  {
+    "id": "lgp-test-4x6-39",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-3x2-8",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-3x5-31",
+    "size": "3*5",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-3x2-15",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x4-8",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x3-38",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x5-33",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-6x2-20",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x4-29",
+    "size": "2*4",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-2x4-38",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x5-21",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-2x5-17",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-2x4-26",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x4-26",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x6-12",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 34
+  },
+  {
+    "id": "lgp-test-2x2-8",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-6x2-22",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x4-29",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x5-36",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-5x5-23",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-5x2-34",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x4-11",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-3x6-18",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-6x4-9",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-5x2-29",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-3x5-37",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-5x4-32",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-5x2-20",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x4-38",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-5x3-22",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-4x5-30",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-2x3-35",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-2x4-22",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-4x6-16",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-6x3-17",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-2x2-9",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-2x3-34",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-6x5-31",
+    "size": "6*5",
+    "variables": 24,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-4x3-28",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x4-27",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x5-14",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-6x3-19",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-6x4-4",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-3x3-4",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x3-1",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-3x2-9",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x3-27",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x3-30",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-4x5-15",
+    "size": "4*5",
+    "variables": 16,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-4x6-18",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-6x3-5",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-6x6-8",
+    "size": "6*6",
+    "variables": 30,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-2x4-3",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-2x3-0",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x2-8",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x6-32",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-6x3-13",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-4x6-23",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-2x5-2",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x2-13",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-3x3-0",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-5x5-3",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-5x2-9",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x6-6",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 28
+  },
+  {
+    "id": "lgp-test-2x6-30",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-2x4-2",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x5-0",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-6x3-36",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-6x2-5",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x6-23",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-4x4-34",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-4x4-8",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-6x3-7",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-5x3-32",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x3-18",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x5-1",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-5x4-11",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-4x5-35",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-4x6-33",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-6x2-37",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-3x2-22",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x4-23",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x4-36",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-2x5-38",
+    "size": "2*5",
+    "variables": 8,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x4-18",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-4x6-9",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-6x4-17",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-3x4-12",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x3-25",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x6-28",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 29
+  },
+  {
+    "id": "lgp-test-3x6-39",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x2-2",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-6x4-6",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-2x6-8",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x5-5",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-6x3-29",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-3x2-18",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x4-12",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-5x4-35",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-5x5-31",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x6-10",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-3x3-2",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-6x6-20",
+    "size": "6*6",
+    "variables": 30,
+    "constraints": 31
+  },
+  {
+    "id": "lgp-test-2x2-15",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-4x5-33",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-5x3-27",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-2x3-11",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-6x6-29",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 31
+  },
+  {
+    "id": "lgp-test-4x6-3",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-4x3-13",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x3-37",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x3-15",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x4-32",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-5x4-37",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x6-27",
+    "size": "2*6",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x2-29",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x5-23",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x6-6",
+    "size": "6*6",
+    "variables": 30,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-6x2-14",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x4-25",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-6x5-3",
+    "size": "6*5",
+    "variables": 24,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-3x3-14",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x4-31",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x5-27",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-4x2-12",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x3-22",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-2x4-20",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x3-21",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-5x3-29",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-5x4-9",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-2x3-15",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x3-38",
+    "size": "4*3",
+    "variables": 8,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x2-20",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x5-35",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-3x6-2",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-4x3-1",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x3-34",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-6x5-26",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-2x4-16",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-2x6-34",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x2-16",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-5x4-29",
+    "size": "5*4",
+    "variables": 15,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-3x3-8",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x4-4",
+    "size": "4*4",
+    "variables": 12,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-4x6-30",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-4x6-24",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-2x5-15",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x5-33",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-3x2-19",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x6-7",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-5x4-5",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-3x4-5",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x3-3",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x5-6",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-5x5-8",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-3x5-18",
+    "size": "3*5",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x3-32",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x3-29",
+    "size": "2*3",
+    "variables": 4,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-6x3-34",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x3-20",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x3-6",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x5-4",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-2x3-32",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-2x2-7",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-6x6-7",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 31
+  },
+  {
+    "id": "lgp-test-5x5-14",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-3x2-35",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x6-7",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-5x2-2",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x2-21",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-3x5-26",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-6x2-27",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-3x2-30",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-3x3-13",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-2x5-3",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x3-22",
+    "size": "4*3",
+    "variables": 8,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x5-9",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-4x3-8",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x2-31",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x6-11",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 32
+  },
+  {
+    "id": "lgp-test-5x4-7",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-6x3-4",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-3x4-39",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x5-10",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-3x2-5",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x4-26",
+    "size": "5*4",
+    "variables": 15,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-6x5-18",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 28
+  },
+  {
+    "id": "lgp-test-5x6-24",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-6x3-26",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-4x2-33",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-5x2-21",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x5-20",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-6x3-15",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-2x6-9",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x6-2",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-4x4-6",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-5x3-35",
+    "size": "5*3",
+    "variables": 10,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x5-11",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x5-8",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-4x5-25",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-2x3-30",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x4-17",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-5x5-29",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-2x4-7",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x5-13",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 28
+  },
+  {
+    "id": "lgp-test-6x3-25",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-3x3-6",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x3-19",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x3-5",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x4-34",
+    "size": "3*4",
+    "variables": 9,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x6-11",
+    "size": "3*6",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x2-8",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-2x2-19",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 3
+  },
+  {
+    "id": "lgp-test-4x4-20",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-3x5-11",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-5x2-13",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-2x2-0",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-4x5-23",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-4x5-32",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x6-5",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x6-38",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-3x6-22",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-6x2-34",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-6x6-13",
+    "size": "6*6",
+    "variables": 24,
+    "constraints": 28
+  },
+  {
+    "id": "lgp-test-6x4-14",
+    "size": "6*4",
+    "variables": 18,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-5x6-36",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-6x6-39",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 32
+  },
+  {
+    "id": "lgp-test-3x4-25",
+    "size": "3*4",
+    "variables": 9,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x3-0",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-2x4-28",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-4x4-39",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-2x6-22",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x6-20",
+    "size": "5*6",
+    "variables": 25,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-4x4-32",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x5-10",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-5x5-16",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-5x5-19",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x2-3",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-6x4-28",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x6-1",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x3-5",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x5-11",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-6x6-38",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 29
+  },
+  {
+    "id": "lgp-test-6x5-35",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-5x3-16",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-5x6-27",
+    "size": "5*6",
+    "variables": 25,
+    "constraints": 28
+  },
+  {
+    "id": "lgp-test-6x4-19",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-5x6-8",
+    "size": "5*6",
+    "variables": 25,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-6x5-16",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-5x4-18",
+    "size": "5*4",
+    "variables": 15,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x4-37",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x5-18",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-6x2-30",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x2-11",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-4x6-6",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-3x3-17",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x5-21",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-4x3-39",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x6-3",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-3x6-30",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-3x6-34",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x3-25",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-5x2-10",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x5-36",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-5x4-16",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-6x2-11",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x5-38",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-5x3-2",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-2x5-36",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x4-32",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x3-8",
+    "size": "2*3",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-5x6-13",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-2x4-13",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x4-25",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-4x5-1",
+    "size": "4*5",
+    "variables": 16,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x5-21",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-6x4-1",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 23
+  },
+  {
+    "id": "lgp-test-6x5-5",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-4x2-8",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-4x6-37",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-4x2-38",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-4x6-38",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-5x6-4",
+    "size": "5*6",
+    "variables": 20,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-3x3-29",
+    "size": "3*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x5-31",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-6x6-14",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-5x6-2",
+    "size": "5*6",
+    "variables": 25,
+    "constraints": 23
+  },
+  {
+    "id": "lgp-test-3x3-12",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-6x6-32",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 33
+  },
+  {
+    "id": "lgp-test-3x3-31",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x5-26",
+    "size": "2*5",
+    "variables": 8,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x3-29",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-5x3-18",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-4x2-5",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-4x4-31",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-5x3-31",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-3x2-17",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x5-2",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-5x5-15",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 23
+  },
+  {
+    "id": "lgp-test-4x6-20",
+    "size": "4*6",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-3x2-16",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-2x3-27",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-3x3-34",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x2-10",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x5-3",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x2-24",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x6-22",
+    "size": "6*6",
+    "variables": 30,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-6x3-1",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-3x2-34",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-2x3-17",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-5x6-34",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-5x6-26",
+    "size": "5*6",
+    "variables": 25,
+    "constraints": 24
+  },
+  {
+    "id": "lgp-test-6x3-23",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-3x5-12",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x4-21",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-3x2-24",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-4x6-10",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-5x4-24",
+    "size": "5*4",
+    "variables": 15,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-5x3-15",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-3x3-36",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x6-28",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-4x3-33",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x6-7",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x6-34",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 35
+  },
+  {
+    "id": "lgp-test-5x5-26",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 27
+  },
+  {
+    "id": "lgp-test-4x5-26",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x6-15",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x4-27",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-5x2-23",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-2x3-33",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-5x3-23",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-5x4-19",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-6x6-10",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 32
+  },
+  {
+    "id": "lgp-test-3x3-33",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x4-6",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-3x2-14",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-3x6-3",
+    "size": "3*6",
+    "variables": 15,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-3x6-19",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x6-6",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-3x6-13",
+    "size": "3*6",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-6x3-14",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-5x3-10",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-4x3-24",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-6x5-34",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 25
+  },
+  {
+    "id": "lgp-test-6x5-27",
+    "size": "6*5",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-2x4-23",
+    "size": "2*4",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-6x4-7",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-6x6-18",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 33
+  },
+  {
+    "id": "lgp-test-6x3-35",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-2x4-1",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-3x4-16",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x6-31",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-3x2-33",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x3-37",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-2x3-6",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-2x3-31",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x5-1",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-2x6-36",
+    "size": "2*6",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x6-31",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-3x6-10",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-6x4-2",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-6x4-26",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 23
+  },
+  {
+    "id": "lgp-test-5x2-33",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-5x3-3",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-6x3-9",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-3x4-20",
+    "size": "3*4",
+    "variables": 9,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-4x6-5",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x4-0",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x6-27",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x5-7",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-4x5-29",
+    "size": "4*5",
+    "variables": 16,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-4x3-30",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-5x5-27",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 23
+  },
+  {
+    "id": "lgp-test-2x3-4",
+    "size": "2*3",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-6x2-26",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-3x3-30",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-5x2-18",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x5-32",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-6x3-27",
+    "size": "6*3",
+    "variables": 18,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-3x6-7",
+    "size": "3*6",
+    "variables": 15,
+    "constraints": 15
+  },
+  {
+    "id": "lgp-test-2x4-19",
+    "size": "2*4",
+    "variables": 6,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-3x6-29",
+    "size": "3*6",
+    "variables": 18,
+    "constraints": 16
+  },
+  {
+    "id": "lgp-test-2x4-14",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x6-30",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 31
+  },
+  {
+    "id": "lgp-test-3x5-24",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-5x6-21",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-3x2-20",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-2x5-39",
+    "size": "2*5",
+    "variables": 10,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-6x6-4",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 34
+  },
+  {
+    "id": "lgp-test-3x5-28",
+    "size": "3*5",
+    "variables": 15,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-6x6-23",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-5x4-34",
+    "size": "5*4",
+    "variables": 15,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-2x6-3",
+    "size": "2*6",
+    "variables": 10,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-6x2-25",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x6-17",
+    "size": "5*6",
+    "variables": 30,
+    "constraints": 26
+  },
+  {
+    "id": "lgp-test-2x2-6",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 3
+  },
+  {
+    "id": "lgp-test-6x4-10",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 23
+  },
+  {
+    "id": "lgp-test-6x2-28",
+    "size": "6*2",
+    "variables": 12,
+    "constraints": 14
+  },
+  {
+    "id": "lgp-test-3x4-4",
+    "size": "3*4",
+    "variables": 12,
+    "constraints": 11
+  },
+  {
+    "id": "lgp-test-5x2-3",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 12
+  },
+  {
+    "id": "lgp-test-4x3-19",
+    "size": "4*3",
+    "variables": 12,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-3x2-25",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-4x2-29",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-6x6-26",
+    "size": "6*6",
+    "variables": 36,
+    "constraints": 30
+  },
+  {
+    "id": "lgp-test-5x4-38",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 19
+  },
+  {
+    "id": "lgp-test-5x3-25",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-5x5-13",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-3x2-3",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 5
+  },
+  {
+    "id": "lgp-test-4x6-14",
+    "size": "4*6",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x2-27",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-5x2-16",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x4-37",
+    "size": "4*4",
+    "variables": 16,
+    "constraints": 13
+  },
+  {
+    "id": "lgp-test-3x2-38",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x2-23",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-2x4-15",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-2x2-30",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 4
+  },
+  {
+    "id": "lgp-test-2x2-32",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 3
+  },
+  {
+    "id": "lgp-test-4x2-32",
+    "size": "4*2",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-5x2-4",
+    "size": "5*2",
+    "variables": 10,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-2x4-9",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-4x5-38",
+    "size": "4*5",
+    "variables": 20,
+    "constraints": 17
+  },
+  {
+    "id": "lgp-test-6x4-33",
+    "size": "6*4",
+    "variables": 24,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-5x5-38",
+    "size": "5*5",
+    "variables": 25,
+    "constraints": 22
+  },
+  {
+    "id": "lgp-test-5x4-12",
+    "size": "5*4",
+    "variables": 20,
+    "constraints": 18
+  },
+  {
+    "id": "lgp-test-2x4-24",
+    "size": "2*4",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-5x5-34",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 20
+  },
+  {
+    "id": "lgp-test-2x5-22",
+    "size": "2*5",
+    "variables": 8,
+    "constraints": 9
+  },
+  {
+    "id": "lgp-test-3x2-28",
+    "size": "3*2",
+    "variables": 6,
+    "constraints": 6
+  },
+  {
+    "id": "lgp-test-3x3-10",
+    "size": "3*3",
+    "variables": 9,
+    "constraints": 8
+  },
+  {
+    "id": "lgp-test-3x4-1",
+    "size": "3*4",
+    "variables": 9,
+    "constraints": 10
+  },
+  {
+    "id": "lgp-test-5x5-39",
+    "size": "5*5",
+    "variables": 20,
+    "constraints": 21
+  },
+  {
+    "id": "lgp-test-2x2-25",
+    "size": "2*2",
+    "variables": 4,
+    "constraints": 3
+  },
+  {
+    "id": "lgp-test-2x4-34",
+    "size": "2*4",
+    "variables": 8,
+    "constraints": 7
+  },
+  {
+    "id": "lgp-test-5x3-14",
+    "size": "5*3",
+    "variables": 15,
+    "constraints": 18
+  }
+]

@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "lgp-test-5x6-16",
+    "size": "5*6",
+    "csp": {
+      "variables": [
+        {
+          "name": "House_1_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_1_Attr_1",
+          "domain": [
+            "brit",
+            "dane",
+            "german",
+            "norwegian",
+            "swede"
+          ]
+        },
+        {
+          "name": "House_1_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_1_Food",
+          "domain": [
+            "grilled cheese",
+            "pizza",
+            "spaghetti",
+            "stew",
+            "stir fry"
+          ]
+        },
+        {
+          "name": "House_1_Color",
+          "domain": [
+            "blue",
+            "green",
+            "red",
+            "white",
+            "yellow"
+          ]
+        },
+        {
+          "name": "House_1_Animal",
+          "domain": [
+            "bird",
+            "cat",
+            "dog",
+            "fish",
+            "horse"
+          ]
+        },
+        {
+          "name": "House_2_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_2_Attr_1",
+          "domain": [
+            "brit",
+            "dane",
+            "german",
+            "norwegian",
+            "swede"
+          ]
+        },
+        {
+          "name": "House_2_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_2_Food",
+          "domain": [
+            "grilled cheese",
+            "pizza",
+            "spaghetti",
+            "stew",
+            "stir fry"
+          ]
+        },
+        {
+          "name": "House_2_Color",
+          "domain": [
+            "blue",
+            "green",
+            "red",
+            "white",
+            "yellow"
+          ]
+        },
+        {
+          "name": "House_2_Animal",
+          "domain": [
+            "bird",
+            "cat",
+            "dog",
+            "fish",
+            "horse"
+          ]
+        },
+        {
+          "name": "House_3_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_3_Attr_1",
+          "domain": [
+            "brit",
+            "dane",
+            "german",
+            "norwegian",
+            "swede"
+          ]
+        },
+        {
+          "name": "House_3_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_3_Food",
+          "domain": [
+            "grilled cheese",
+            "pizza",
+            "spaghetti",
+            "stew",
+            "stir fry"
+          ]
+        },
+        {
+          "name": "House_3_Color",
+          "domain": [
+            "blue",
+            "green",
+            "red",
+            "white",
+            "yellow"
+          ]
+        },
+        {
+          "name": "House_3_Animal",
+          "domain": [
+            "bird",
+            "cat",
+            "dog",
+            "fish",
+            "horse"
+          ]
+        },
+        {
+          "name": "House_4_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_4_Attr_1",
+          "domain": [
+            "brit",
+            "dane",
+            "german",
+            "norwegian",
+            "swede"
+          ]
+        },
+        {
+          "name": "House_4_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_4_Food",
+          "domain": [
+            "grilled cheese",
+            "pizza",
+            "spaghetti",
+            "stew",
+            "stir fry"
+          ]
+        },
+        {
+          "name": "House_4_Color",
+          "domain": [
+            "blue",
+            "green",
+            "red",
+            "white",
+            "yellow"
+          ]
+        },
+        {
+          "name": "House_4_Animal",
+          "domain": [
+            "bird",
+            "cat",
+            "dog",
+            "fish",
+            "horse"
+          ]
+        },
+        {
+          "name": "House_5_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_5_Attr_1",
+          "domain": [
+            "brit",
+            "dane",
+            "german",
+            "norwegian",
+            "swede"
+          ]
+        },
+        {
+          "name": "House_5_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_5_Food",
+          "domain": [
+            "grilled cheese",
+            "pizza",
+            "spaghetti",
+            "stew",
+            "stir fry"
+          ]
+        },
+        {
+          "name": "House_5_Color",
+          "domain": [
+            "blue",
+            "green",
+            "red",
+            "white",
+            "yellow"
+          ]
+        },
+        {
+          "name": "House_5_Animal",
+          "domain": [
+            "bird",
+            "cat",
+            "dog",
+            "fish",
+            "horse"
+          ]
+        }
+      ],
+      "constraints": [
+        {
+          "description": "AllDiff: House_1_Name, House_2_Name, House_3_Name, House_4_Name, House_5_Name"
+        },
+        {
+          "description": "AllDiff: House_1_Attr_1, House_2_Attr_1, House_3_Attr_1, House_4_Attr_1, House_5_Attr_1"
+        },
+        {
+          "description": "AllDiff: House_1_Book, House_2_Book, House_3_Book, House_4_Book, House_5_Book"
+        },
+        {
+          "description": "AllDiff: House_1_Food, House_2_Food, House_3_Food, House_4_Food, House_5_Food"
+        },
+        {
+          "description": "AllDiff: House_1_Color, House_2_Color, House_3_Color, House_4_Color, House_5_Color"
+        },
+        {
+          "description": "AllDiff: House_1_Animal, House_2_Animal, House_3_Animal, House_4_Animal, House_5_Animal"
+        },
+        {
+          "description": "The person who loves fantasy books is the Norwegian."
+        },
+        {
+          "description": "The cat lover and the person who loves biography books are next to each other."
+        },
+        {
+          "description": "The German is Bob."
+        },
+        {
+          "description": "The person who loves yellow is Bob."
+        },
+        {
+          "description": "The person whose favorite color is green is Peter."
+        },
+        {
+          "description": "There is one house between the Dane and the person who is a pizza lover."
+        },
+        {
+          "description": "The person who loves blue is somewhere to the left of the Dane."
+        },
+        {
+          "description": "The person who loves eating grilled cheese is somewhere to the left of the Norwegian."
+        },
+        {
+          "description": "The person who loves the spaghetti eater is Peter."
+        },
+        {
+          "description": "The person who keeps horses is Alice."
+        },
+        {
+          "description": "The fish enthusiast is directly left of the person who loves science fiction books."
+        },
+        {
+          "description": "There is one house between the Norwegian and Arnold."
+        },
+        {
+          "description": "The person who loves romance books is the British person."
+        },
+        {
+          "description": "There are two houses between the Norwegian and Alice."
+        },
+        {
+          "description": "The bird keeper is the person whose favorite color is red."
+        },
+        {
+          "description": "The dog owner is directly left of the fish enthusiast."
+        },
+        {
+          "description": "The person who loves the stew is the Norwegian."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lgp-test-4x4-27",
+    "size": "4*4",
+    "csp": {
+      "variables": [
+        {
+          "name": "House_1_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_1_Occupation",
+          "domain": [
+            "artist",
+            "doctor",
+            "engineer",
+            "teacher"
+          ]
+        },
+        {
+          "name": "House_1_Book",
+          "domain": [
+            "fantasy",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_1_Phone",
+          "domain": [
+            "google pixel 6",
+            "iphone 13",
+            "oneplus 9",
+            "samsung galaxy s21"
+          ]
+        },
+        {
+          "name": "House_2_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_2_Occupation",
+          "domain": [
+            "artist",
+            "doctor",
+            "engineer",
+            "teacher"
+          ]
+        },
+        {
+          "name": "House_2_Book",
+          "domain": [
+            "fantasy",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_2_Phone",
+          "domain": [
+            "google pixel 6",
+            "iphone 13",
+            "oneplus 9",
+            "samsung galaxy s21"
+          ]
+        },
+        {
+          "name": "House_3_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_3_Occupation",
+          "domain": [
+            "artist",
+            "doctor",
+            "engineer",
+            "teacher"
+          ]
+        },
+        {
+          "name": "House_3_Book",
+          "domain": [
+            "fantasy",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_3_Phone",
+          "domain": [
+            "google pixel 6",
+            "iphone 13",
+            "oneplus 9",
+            "samsung galaxy s21"
+          ]
+        },
+        {
+          "name": "House_4_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_4_Occupation",
+          "domain": [
+            "artist",
+            "doctor",
+            "engineer",
+            "teacher"
+          ]
+        },
+        {
+          "name": "House_4_Book",
+          "domain": [
+            "fantasy",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_4_Phone",
+          "domain": [
+            "google pixel 6",
+            "iphone 13",
+            "oneplus 9",
+            "samsung galaxy s21"
+          ]
+        }
+      ],
+      "constraints": [
+        {
+          "description": "AllDiff: House_1_Name, House_2_Name, House_3_Name, House_4_Name"
+        },
+        {
+          "description": "AllDiff: House_1_Occupation, House_2_Occupation, House_3_Occupation, House_4_Occupation"
+        },
+        {
+          "description": "AllDiff: House_1_Book, House_2_Book, House_3_Book, House_4_Book"
+        },
+        {
+          "description": "AllDiff: House_1_Phone, House_2_Phone, House_3_Phone, House_4_Phone"
+        },
+        {
+          "description": "The person who is an engineer is directly left of the person who uses a Samsung Galaxy S21."
+        },
+        {
+          "description": "The person who loves fantasy books is in the second house."
+        },
+        {
+          "description": "Alice is not in the second house."
+        },
+        {
+          "description": "Eric is the person who is a teacher."
+        },
+        {
+          "description": "The person who uses a Samsung Galaxy S21 is the person who loves fantasy books."
+        },
+        {
+          "description": "The person who uses an iPhone 13 is the person who loves science fiction books."
+        },
+        {
+          "description": "The person who loves science fiction books is somewhere to the left of the person who uses a OnePlus 9."
+        },
+        {
+          "description": "The person who uses a OnePlus 9 is Arnold."
+        },
+        {
+          "description": "The person who is a doctor is the person who loves mystery books."
+        },
+        {
+          "description": "The person who uses an iPhone 13 is the person who is a teacher."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lgp-test-6x4-15",
+    "size": "6*4",
+    "csp": {
+      "variables": [
+        {
+          "name": "House_1_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Carol",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_1_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_1_Music",
+          "domain": [
+            "classical",
+            "country",
+            "hip hop",
+            "jazz",
+            "pop",
+            "rock"
+          ]
+        },
+        {
+          "name": "House_1_Height",
+          "domain": [
+            "average",
+            "short",
+            "super tall",
+            "tall",
+            "very short",
+            "very tall"
+          ]
+        },
+        {
+          "name": "House_2_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Carol",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_2_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_2_Music",
+          "domain": [
+            "classical",
+            "country",
+            "hip hop",
+            "jazz",
+            "pop",
+            "rock"
+          ]
+        },
+        {
+          "name": "House_2_Height",
+          "domain": [
+            "average",
+            "short",
+            "super tall",
+            "tall",
+            "very short",
+            "very tall"
+          ]
+        },
+        {
+          "name": "House_3_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Carol",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_3_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_3_Music",
+          "domain": [
+            "classical",
+            "country",
+            "hip hop",
+            "jazz",
+            "pop",
+            "rock"
+          ]
+        },
+        {
+          "name": "House_3_Height",
+          "domain": [
+            "average",
+            "short",
+            "super tall",
+            "tall",
+            "very short",
+            "very tall"
+          ]
+        },
+        {
+          "name": "House_4_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Carol",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_4_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_4_Music",
+          "domain": [
+            "classical",
+            "country",
+            "hip hop",
+            "jazz",
+            "pop",
+            "rock"
+          ]
+        },
+        {
+          "name": "House_4_Height",
+          "domain": [
+            "average",
+            "short",
+            "super tall",
+            "tall",
+            "very short",
+            "very tall"
+          ]
+        },
+        {
+          "name": "House_5_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Carol",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_5_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_5_Music",
+          "domain": [
+            "classical",
+            "country",
+            "hip hop",
+            "jazz",
+            "pop",
+            "rock"
+          ]
+        },
+        {
+          "name": "House_5_Height",
+          "domain": [
+            "average",
+            "short",
+            "super tall",
+            "tall",
+            "very short",
+            "very tall"
+          ]
+        },
+        {
+          "name": "House_6_Name",
+          "domain": [
+            "Alice",
+            "Arnold",
+            "Bob",
+            "Carol",
+            "Eric",
+            "Peter"
+          ]
+        },
+        {
+          "name": "House_6_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_6_Music",
+          "domain": [
+            "classical",
+            "country",
+            "hip hop",
+            "jazz",
+            "pop",
+            "rock"
+          ]
+        },
+        {
+          "name": "House_6_Height",
+          "domain": [
+            "average",
+            "short",
+            "super tall",
+            "tall",
+            "very short",
+            "very tall"
+          ]
+        }
+      ],
+      "constraints": [
+        {
+          "description": "AllDiff: House_1_Name, House_2_Name, House_3_Name, House_4_Name, House_5_Name, House_6_Name"
+        },
+        {
+          "description": "AllDiff: House_1_Child, House_2_Child, House_3_Child, House_4_Child, House_5_Child, House_6_Child"
+        },
+        {
+          "description": "AllDiff: House_1_Music, House_2_Music, House_3_Music, House_4_Music, House_5_Music, House_6_Music"
+        },
+        {
+          "description": "AllDiff: House_1_Height, House_2_Height, House_3_Height, House_4_Height, House_5_Height, House_6_Height"
+        },
+        {
+          "description": "There is one house between the person's child is named Samantha and the person who is short."
+        },
+        {
+          "description": "The person's child is named Alice is Bob."
+        },
+        {
+          "description": "The person who loves country music is directly left of Arnold."
+        },
+        {
+          "description": "Alice is the person who is tall."
+        },
+        {
+          "description": "The person who loves pop music is Eric."
+        },
+        {
+          "description": "Bob is somewhere to the right of the person who is super tall."
+        },
+        {
+          "description": "The person's child is named Fred is Peter."
+        },
+        {
+          "description": "The person's child is named Bella is the person who loves hip-hop music."
+        },
+        {
+          "description": "The person who is the mother of Timothy is not in the sixth house."
+        },
+        {
+          "description": "The person who is super tall is somewhere to the right of the person who has an average height."
+        },
+        {
+          "description": "The person's child is named Alice is somewhere to the right of Arnold."
+        },
+        {
+          "description": "There is one house between the person who is short and the person who is very short."
+        },
+        {
+          "description": "The person who is very short is in the fifth house."
+        },
+        {
+          "description": "The person who loves jazz music is not in the fifth house."
+        },
+        {
+          "description": "Carol is somewhere to the left of the person who is the mother of Timothy."
+        },
+        {
+          "description": "The person who is very tall is not in the sixth house."
+        },
+        {
+          "description": "The person who loves classical music is in the sixth house."
+        },
+        {
+          "description": "The person who loves rock music is in the first house."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lgp-test-6x5-2",
+    "size": "6*5",
+    "csp": {
+      "variables": [
+        {
+          "name": "House_1_Name",
+          "domain": [
+            "Aniya",
+            "Holly",
+            "Janelle",
+            "Kailyn",
+            "Penny",
+            "Sarah"
+          ]
+        },
+        {
+          "name": "House_1_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_1_Attr_2",
+          "domain": [
+            "beach",
+            "camping",
+            "city",
+            "cruise",
+            "cultural",
+            "mountain"
+          ]
+        },
+        {
+          "name": "House_1_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "historical fiction",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_2_Name",
+          "domain": [
+            "Aniya",
+            "Holly",
+            "Janelle",
+            "Kailyn",
+            "Penny",
+            "Sarah"
+          ]
+        },
+        {
+          "name": "House_2_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_2_Attr_2",
+          "domain": [
+            "beach",
+            "camping",
+            "city",
+            "cruise",
+            "cultural",
+            "mountain"
+          ]
+        },
+        {
+          "name": "House_2_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "historical fiction",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_3_Name",
+          "domain": [
+            "Aniya",
+            "Holly",
+            "Janelle",
+            "Kailyn",
+            "Penny",
+            "Sarah"
+          ]
+        },
+        {
+          "name": "House_3_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_3_Attr_2",
+          "domain": [
+            "beach",
+            "camping",
+            "city",
+            "cruise",
+            "cultural",
+            "mountain"
+          ]
+        },
+        {
+          "name": "House_3_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "historical fiction",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_4_Name",
+          "domain": [
+            "Aniya",
+            "Holly",
+            "Janelle",
+            "Kailyn",
+            "Penny",
+            "Sarah"
+          ]
+        },
+        {
+          "name": "House_4_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_4_Attr_2",
+          "domain": [
+            "beach",
+            "camping",
+            "city",
+            "cruise",
+            "cultural",
+            "mountain"
+          ]
+        },
+        {
+          "name": "House_4_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "historical fiction",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_5_Name",
+          "domain": [
+            "Aniya",
+            "Holly",
+            "Janelle",
+            "Kailyn",
+            "Penny",
+            "Sarah"
+          ]
+        },
+        {
+          "name": "House_5_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_5_Attr_2",
+          "domain": [
+            "beach",
+            "camping",
+            "city",
+            "cruise",
+            "cultural",
+            "mountain"
+          ]
+        },
+        {
+          "name": "House_5_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "historical fiction",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        },
+        {
+          "name": "House_6_Name",
+          "domain": [
+            "Aniya",
+            "Holly",
+            "Janelle",
+            "Kailyn",
+            "Penny",
+            "Sarah"
+          ]
+        },
+        {
+          "name": "House_6_Child",
+          "domain": [
+            "Alice",
+            "Bella",
+            "Fred",
+            "Meredith",
+            "Samantha",
+            "Timothy"
+          ]
+        },
+        {
+          "name": "House_6_Attr_2",
+          "domain": [
+            "beach",
+            "camping",
+            "city",
+            "cruise",
+            "cultural",
+            "mountain"
+          ]
+        },
+        {
+          "name": "House_6_Book",
+          "domain": [
+            "biography",
+            "fantasy",
+            "historical fiction",
+            "mystery",
+            "romance",
+            "science fiction"
+          ]
+        }
+      ],
+      "constraints": [
+        {
+          "description": "AllDiff: House_1_Name, House_2_Name, House_3_Name, House_4_Name, House_5_Name, House_6_Name"
+        },
+        {
+          "description": "AllDiff: House_1_Child, House_2_Child, House_3_Child, House_4_Child, House_5_Child, House_6_Child"
+        },
+        {
+          "description": "AllDiff: House_1_Attr_2, House_2_Attr_2, House_3_Attr_2, House_4_Attr_2, House_5_Attr_2, House_6_Attr_2"
+        },
+        {
+          "description": "AllDiff: House_1_Book, House_2_Book, House_3_Book, House_4_Book, House_5_Book, House_6_Book"
+        },
+        {
+          "description": "The person who loves beach vacations is not in the second house."
+        },
+        {
+          "description": "The person who loves fantasy books is somewhere to the left of Peter."
+        },
+        {
+          "description": "The person whose mother's name is Sarah is the person who prefers city breaks."
+        },
+        {
+          "description": "The person who enjoys camping trips is somewhere to the right of Peter."
+        },
+        {
+          "description": "The person who likes going on cruises is the person's child is named Meredith."
+        },
+        {
+          "description": "There is one house between the person who is the mother of Timothy and Eric."
+        },
+        {
+          "description": "The person whose mother's name is Janelle is not in the second house."
+        },
+        {
+          "description": "The person's child is named Fred is somewhere to the left of Eric."
+        },
+        {
+          "description": "The person who goes on cultural tours is in the fourth house."
+        },
+        {
+          "description": "The person whose mother's name is Janelle is not in the first house."
+        },
+        {
+          "description": "The person whose mother's name is Holly is somewhere to the right of the person who loves historical fiction books."
+        },
+        {
+          "description": "The person's child is named Bella is somewhere to the left of Alice."
+        },
+        {
+          "description": "Arnold is somewhere to the right of the person who loves fantasy books."
+        },
+        {
+          "description": "The person who loves mystery books is in the fourth house."
+        },
+        {
+          "description": "The person's child is named Alice is the person who enjoys camping trips."
+        },
+        {
+          "description": "The person whose mother's name is Kailyn is the person who likes going on cruises."
+        },
+        {
+          "description": "There are two houses between the person who loves fantasy books and The person whose mother's name is Aniya."
+        },
+        {
+          "description": "The person who loves fantasy books is Carol."
+        },
+        {
+          "description": "The person who likes going on cruises is the person who loves biography books."
+        },
+        {
+          "description": "The person who loves fantasy books is in the third house."
+        },
+        {
+          "description": "The person whose mother's name is Aniya is the person who loves romance books."
+        },
+        {
+          "description": "The person whose mother's name is Janelle is not in the fourth house."
+        },
+        {
+          "description": "The person's child is named Fred is not in the fourth house."
+        },
+        {
+          "description": "The person who loves biography books is not in the second house."
+        },
+        {
+          "description": "There are two houses between The person whose mother's name is Holly and Eric."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lgp-test-2x2-33",
+    "size": "2*2",
+    "csp": {
+      "variables": [
+        {
+          "name": "House_1_Name",
+          "domain": [
+            "Arnold",
+            "Eric"
+          ]
+        },
+        {
+          "name": "House_1_Animal",
+          "domain": [
+            "cat",
+            "dog"
+          ]
+        },
+        {
+          "name": "House_2_Name",
+          "domain": [
+            "Arnold",
+            "Eric"
+          ]
+        },
+        {
+          "name": "House_2_Animal",
+          "domain": [
+            "cat",
+            "dog"
+          ]
+        }
+      ],
+      "constraints": [
+        {
+          "description": "AllDiff: House_1_Name, House_2_Name"
+        },
+        {
+          "description": "AllDiff: House_1_Animal, House_2_Animal"
+        },
+        {
+          "description": "Eric is somewhere to the left of Arnold."
+        },
+        {
+          "description": "The person who owns a dog is not in the first house."
+        }
+      ]
+    }
+  }
+]

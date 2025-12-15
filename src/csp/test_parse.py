@@ -1,7 +1,15 @@
+import argparse
+import json
 import os
 import sys
-import json
-import argparse
+
+# Skip this module entirely when pandas is not available (e.g., minimal test env)
+try:  # pragma: no cover - guard for lightweight environments
+    import pandas as _  # type: ignore
+except ImportError:  # pragma: no cover
+    import pytest
+
+    pytest.skip("pandas not installed; skip CLI parse script tests", allow_module_level=True)
 
 # Bootstrap sys.path so absolute imports work when running by file path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
@@ -13,6 +21,20 @@ try:
     from tqdm import tqdm
 except Exception:
     tqdm = None
+
+SAMPLE_PUZZLE = {
+    "size": "2*2",
+    "puzzle": """
+There are 2 houses.
+
+- Colors: Red, Blue
+- Pets: Dog, Cat
+
+## Clues:
+1. The red house has the dog.
+""",
+    "id": "sample-2x2",
+}
 
 
 def csp_to_dict(csp):
@@ -31,7 +53,8 @@ def csp_to_dict(csp):
 
 def main():
     ap = argparse.ArgumentParser(description="Batch-parse ZebraLogicBench puzzles into CSPs.")
-    ap.add_argument("--input", required=True, help="Path to .parquet or .jsonl dataset")
+    ap.add_argument("--input", help="Path to .parquet or .jsonl dataset")
+    ap.add_argument("--use-sample", action="store_true", help="Parse built-in 2x2 sample puzzle")
     ap.add_argument("--max", type=int, default=0, help="Max number of puzzles to process (0 = all)")
     ap.add_argument("--filter-size", default="", help="Filter by size like '5*6' or '4*4' (optional)")
     ap.add_argument("--out-summary", default="parsed_puzzles_summary.json",
@@ -42,15 +65,22 @@ def main():
                     help="Number of CSPs to fully serialize to --out-sample")
     args = ap.parse_args()
 
-    if not os.path.exists(args.input):
-        print(f"Error: {args.input} not found")
-        sys.exit(1)
+    if not args.use_sample and not args.input:
+        ap.error("either --input must be provided or --use-sample set")
 
-    print(f"Loading: {args.input}")
-    puzzles = load_puzzles(args.input)
-    if not puzzles:
-        print("No puzzles loaded. Check format and path.")
-        sys.exit(1)
+    if args.use_sample:
+        puzzles = [SAMPLE_PUZZLE]
+        print("Using built-in 2x2 sample puzzle")
+    else:
+        if not os.path.exists(args.input):
+            print(f"Error: {args.input} not found")
+            sys.exit(1)
+
+        print(f"Loading: {args.input}")
+        puzzles = load_puzzles(args.input)
+        if not puzzles:
+            print("No puzzles loaded. Check format and path.")
+            sys.exit(1)
 
     # Optional filter by size (e.g., "5*6")
     if args.filter_size:

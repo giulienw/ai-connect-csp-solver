@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import csv
 from pathlib import Path
 
 from solver import solve_puzzle
@@ -42,6 +43,19 @@ def reformat_to_grid(assignment: dict) -> dict:
         "rows": rows
     }
 
+def write_results_csv(results, output_path: Path):
+    with open(output_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["id", "grid_solution", "steps"])
+
+        for r in results:
+            writer.writerow([
+                r["id"],
+                json.dumps(r["grid_solution"]),
+                r["steps"]
+            ])
+
+
 def main():
     args = parse_args()
     puzzle_files = []
@@ -65,10 +79,13 @@ def main():
         results.append({
             "id": puzzle_id,
             "grid_solution": grid,
-            "steps": -1
+            "steps": -1             # Placeholder until counting steps is implemented
         })
 
-    print(results)
+    if args.output:
+        write_results_csv(results, args.output)
+    else:
+        print(results)
 
 if __name__ == "__main__":
     main()

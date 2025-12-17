@@ -6,6 +6,7 @@ import csv
 from pathlib import Path
 
 from solver import solve_puzzle
+from src.utils.trace import get_tracer, reset_tracer
 
 
 def parse_args():
@@ -69,6 +70,9 @@ def main():
         raise ValueError("Input path does not exist")
 
     for puzzle_path in puzzle_files:
+        reset_tracer()
+        tracer = get_tracer()
+
         with open(puzzle_path, "r", encoding="utf-8") as f:
             puzzle = json.load(f)
 
@@ -76,16 +80,17 @@ def main():
         puzzle_id = puzzle.get("id", puzzle_path.stem)
         grid = reformat_to_grid(solution)
 
+        summary = tracer.summary()
+
         results.append({
             "id": puzzle_id,
             "grid_solution": grid,
-            "steps": -1             # Placeholder until counting steps is implemented
+            "steps": summary['total_steps']
         })
 
     if args.output:
         write_results_csv(results, args.output)
     else:
         print(results)
-
 if __name__ == "__main__":
     main()

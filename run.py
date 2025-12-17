@@ -19,10 +19,10 @@ def reformat_to_grid(assignment: dict) -> dict:
     houses = set()
     attributes = set()
 
-    for ass in assignment:
-        if not ass.startswith("House_"):
+    for var_name in assignment:
+        if not var_name.startswith("House_"):
             continue
-        _, house, attr = ass.split("_", 2)
+        _, house, attr = var_name.split("_", 2)
         houses.add(int(house))
         attributes.add(attr)
 
@@ -44,6 +44,18 @@ def reformat_to_grid(assignment: dict) -> dict:
         "rows": rows
     }
 
+def format_solution(solution: dict) -> dict:
+    if not solution:
+        return {
+            "status": "unsolved",
+            "header": [],
+            "rows": []
+        }
+
+    grid = reformat_to_grid(solution)
+    grid["status"] = "solved"
+    return grid
+
 def write_results_csv(results, output_path: Path):
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
@@ -56,41 +68,58 @@ def write_results_csv(results, output_path: Path):
                 r["steps"]
             ])
 
-
 def main():
     args = parse_args()
     puzzle_files = []
     results = []
 
+    if not args.input.exists():
+        raise ValueError(f"Input path does not exist: {args.input}")
     if args.input.is_file():
         puzzle_files = [args.input]
     elif args.input.is_dir():
         puzzle_files = sorted(args.input.glob("*.json"))
     else:
-        raise ValueError("Input path does not exist")
+        raise ValueError("Input path exists but is neither file nor directory")
 
     for puzzle_path in puzzle_files:
         reset_tracer()
         tracer = get_tracer()
 
-        with open(puzzle_path, "r", encoding="utf-8") as f:
-            puzzle = json.load(f)
+        try:
+            with open(puzzle_path, "r", encoding="utf-8") as f:
+                puzzle = json.load(f)
 
-        solution = solve_puzzle(puzzle)
-        puzzle_id = puzzle.get("id", puzzle_path.stem)
-        grid = reformat_to_grid(solution)
+            solution = solve_puzzle(puzzle)
+            puzzle_id = puzzle.get("id", puzzle_path.stem)
+            grid = format_solution(solution)
 
-        summary = tracer.summary()
+            summary = tracer.summary()
 
-        results.append({
-            "id": puzzle_id,
-            "grid_solution": grid,
-            "steps": summary['total_steps']
-        })
+            results.append({
+                "id": puzzle_id,
+                "grid_solution": grid,
+                "steps": summary['total_steps']
+            })
+        except json.JSONDecodeError as e:
+            print(f"ERROR: Failed to parse JSON for {puzzle_path}: {e}")
+            results.append({
+                "id": puzzle_path.stem,
+                "grid_solution": {"status": "invalid_json", "header": [], "rows": []},
+                "steps": -1
+                })
+        except Exception as e:
+            print(f"ERROR: Failed to solve puzzle {puzzle_path}: {e}")
+            results.append({
+                "id": puzzle_path.stem,
+                "grid_solution": {"status": "failed", "header": [], "rows": []},
+                "steps": -1
+            })
 
     if args.output:
         write_results_csv(results, args.output)
     else:
         print(results)
+
 if __name__ == "__main__":
     main()

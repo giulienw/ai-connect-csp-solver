@@ -1,4 +1,3 @@
-"""CLI entrypoint: load puzzle(s), run solver, and report metrics."""
 
 import argparse
 import json
@@ -16,9 +15,20 @@ def parse_args():
     parser.add_argument("--output", type=Path, default=None, help="Optional path to write solutions")
     return parser.parse_args()
 
+
+def _ordered_attributes(attributes: set[str]) -> list[str]:
+    """
+    Match sample-style ordering:
+    House, Name, Color, Pet, then remaining attributes alphabetically.
+    """
+    priority = ["Name", "Color", "Pet"]
+    remaining = sorted([a for a in attributes if a not in priority])
+    return [a for a in priority if a in attributes] + remaining
+
+
 def reformat_to_grid(assignment: dict) -> dict:
     houses = set()
-    attributes = set()
+    attributes: set[str] = set()
 
     for var_name in assignment:
         if not var_name.startswith("House_"):
@@ -28,22 +38,20 @@ def reformat_to_grid(assignment: dict) -> dict:
         attributes.add(attr)
 
     houses = sorted(houses)
-    attributes = sorted(attributes)
+    ordered_attrs = _ordered_attributes(attributes)
 
-    header = ["House"] + attributes
+    header = ["House"] + ordered_attrs
     rows = []
 
     for h in houses:
         row = [str(h)]
-        for attr in attributes:
+        for attr in ordered_attrs:
             key = f"House_{h}_{attr}"
             row.append(assignment.get(key, "___"))
         rows.append(row)
 
-    return {
-        "header": header,
-        "rows": rows
-    }
+    return {"header": header, "rows": rows}
+
 
 def _coerce_jsonable(value):
     if isinstance(value, dict):
@@ -57,8 +65,11 @@ def _coerce_jsonable(value):
             pass
     return value
 
+
 def format_solution(solution: dict, puzzle: dict | None = None) -> dict:
+   
     if not solution:
+        # If the puzzle contains a template solution schema, reuse it for shape
         template = None
         if isinstance(puzzle, dict):
             template = puzzle.get("solution")
@@ -66,11 +77,11 @@ def format_solution(solution: dict, puzzle: dict | None = None) -> dict:
             template = _coerce_jsonable(template)
             header = template.get("header", [])
             rows = template.get("rows", [])
-            return {"status": "unsolved", "header": header, "rows": rows}
-        return {"status": "unsolved", "header": [], "rows": []}
+            return {"header": header, "rows": rows}
+        return {"header": [], "rows": []}
 
-    grid = reformat_to_grid(solution)
-    return {"status": "solved", **grid}
+    return reformat_to_grid(solution)
+
 
 def write_results_csv(results, output_path: Path):
     with open(output_path, "w", newline="", encoding="utf-8") as f:
@@ -83,6 +94,7 @@ def write_results_csv(results, output_path: Path):
                 json.dumps(r["grid_solution"]),
                 r["steps"]
             ])
+
 
 def main():
     args = parse_args()
@@ -98,14 +110,14 @@ def main():
     else:
         raise ValueError(f"Input path {args.input} is neither file nor directory")
 
-
     for puzzle in puzzles:
         reset_tracer()
         tracer = get_tracer()
 
+        puzzle_id = puzzle.get("id", "unknown") if isinstance(puzzle, dict) else "unknown"
+
         try:
             solution = solve_puzzle(puzzle)
-            puzzle_id = puzzle.get("id", "unknown")
             grid = format_solution(solution, puzzle)
 
             summary = tracer.summary()
@@ -113,20 +125,21 @@ def main():
             results.append({
                 "id": puzzle_id,
                 "grid_solution": grid,
-                "steps": summary['total_steps']
+                "steps": summary["total_steps"],
             })
         except Exception as e:
-            print(f"ERROR: Failed to solve puzzle {puzzle}: {e}")
+            print(f"ERROR: Failed to solve puzzle {puzzle_id}: {e}")
             results.append({
                 "id": puzzle_id,
-                "grid_solution": {"status": "failed", "header": [], "rows": []},
-                "steps": -1
+                "grid_solution": {"header": [], "rows": []},
+                "steps": -1,
             })
 
     if args.output:
         write_results_csv(results, args.output)
     else:
         print(results)
+
 
 if __name__ == "__main__":
     main()

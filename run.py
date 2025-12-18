@@ -7,6 +7,7 @@ from pathlib import Path
 
 from solver import solve_puzzle
 from src.utils.trace import get_tracer, reset_tracer
+from src.csp.loader import load_puzzles
 
 
 def parse_args():
@@ -46,14 +47,9 @@ def reformat_to_grid(assignment: dict) -> dict:
 
 def format_solution(solution: dict) -> dict:
     if not solution:
-        return {
-            "status": "unsolved",
-            "header": [],
-            "rows": []
-        }
+        return None
 
     grid = reformat_to_grid(solution)
-    grid["status"] = "solved"
     return grid
 
 def write_results_csv(results, output_path: Path):
@@ -70,28 +66,26 @@ def write_results_csv(results, output_path: Path):
 
 def main():
     args = parse_args()
-    puzzle_files = []
+    puzzles = []
     results = []
 
-    if not args.input.exists():
-        raise ValueError(f"Input path does not exist: {args.input}")
     if args.input.is_file():
-        puzzle_files = [args.input]
+        puzzles = load_puzzles(str(args.input))
     elif args.input.is_dir():
-        puzzle_files = sorted(args.input.glob("*.json"))
+        for file_path in sorted(args.input.iterdir()):
+            if file_path.suffix in [".json", ".jsonl", ".parquet"]:
+                puzzles.extend(load_puzzles(str(file_path)))
     else:
-        raise ValueError("Input path exists but is neither file nor directory")
+        raise ValueError(f"Input path {args.input} is neither file nor directory")
 
-    for puzzle_path in puzzle_files:
+
+    for puzzle in puzzles:
         reset_tracer()
         tracer = get_tracer()
 
         try:
-            with open(puzzle_path, "r", encoding="utf-8") as f:
-                puzzle = json.load(f)
-
             solution = solve_puzzle(puzzle)
-            puzzle_id = puzzle.get("id", puzzle_path.stem)
+            puzzle_id = puzzle.get("id", "unknown")
             grid = format_solution(solution)
 
             summary = tracer.summary()
@@ -101,17 +95,10 @@ def main():
                 "grid_solution": grid,
                 "steps": summary['total_steps']
             })
-        except json.JSONDecodeError as e:
-            print(f"ERROR: Failed to parse JSON for {puzzle_path}: {e}")
-            results.append({
-                "id": puzzle_path.stem,
-                "grid_solution": {"status": "invalid_json", "header": [], "rows": []},
-                "steps": -1
-                })
         except Exception as e:
-            print(f"ERROR: Failed to solve puzzle {puzzle_path}: {e}")
+            print(f"ERROR: Failed to solve puzzle {puzzle}: {e}")
             results.append({
-                "id": puzzle_path.stem,
+                "id": puzzle_id,
                 "grid_solution": {"status": "failed", "header": [], "rows": []},
                 "steps": -1
             })

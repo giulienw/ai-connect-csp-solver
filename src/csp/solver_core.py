@@ -4,6 +4,7 @@ from collections import deque
 from typing import Any, Dict, List, Optional, Set, Tuple
 
 from .model import CSP, Constraint
+from src.utils.trace import Tracer, get_tracer
 
 Assignment = Dict[str, Any]
 Domains = Dict[str, Set[Any]]
@@ -14,19 +15,26 @@ def solve(csp: CSP) -> Assignment:
     Solve a CSP instance using backtracking with MRV, forward checking, and AC-3.
     Returns an assignment mapping variable -> value. Empty dict if unsatisfiable.
     """
+    tracer = get_tracer()
     domains = csp.copy_domains()
     if not _enforce_unary_constraints(csp, domains, {}):
         return {}
-    if not _ac3(csp, domains, {}):
+    if not _ac3(csp, domains, {}, tracer):
         return {}
 
-    result = _backtrack(csp, {}, domains)
+    result = _backtrack(csp, {}, domains, tracer)
     return result or {}
 
 
-def _backtrack(csp: CSP, assignment: Assignment, domains: Domains) -> Optional[Assignment]:
+def _backtrack(
+    csp: CSP, assignment: Assignment, domains: Domains, tracer: Optional[Tracer] = None
+) -> Optional[Assignment]:
+    tracer = tracer or get_tracer()
     if len(assignment) == len(csp.variable_names):
-        return dict(assignment) if csp.is_consistent(assignment) else None
+        if csp.is_consistent(assignment):
+            tracer.log_solution_found(assignment_size=len(assignment))
+            return dict(assignment)
+        return None
 
     var = _select_unassigned_variable(csp, assignment, domains)
     if var is None:
@@ -38,20 +46,27 @@ def _backtrack(csp: CSP, assignment: Assignment, domains: Domains) -> Optional[A
 
         local_assignment = dict(assignment)
         local_assignment[var] = value
+        tracer.log_assign(
+            variable=var,
+            value=value,
+            domain_size=len(domains[var]),
+            assignment_size=len(local_assignment),
+        )
 
         local_domains = csp.copy_domains(domains)
         local_domains[var] = {value}
 
-        if not _forward_check(csp, var, local_assignment, local_domains):
+        if not _forward_check(csp, var, local_assignment, local_domains, tracer):
             continue
 
-        if not _ac3(csp, local_domains, local_assignment):
+        if not _ac3(csp, local_domains, local_assignment, tracer):
             continue
 
-        result = _backtrack(csp, local_assignment, local_domains)
+        result = _backtrack(csp, local_assignment, local_domains, tracer)
         if result is not None:
             return result
 
+    tracer.log_backtrack(var)
     return None
 
 
@@ -77,11 +92,19 @@ def _is_value_consistent(csp: CSP, variable: str, value: Any, assignment: Assign
     return True
 
 
-def _forward_check(csp: CSP, variable: str, assignment: Assignment, domains: Domains) -> bool:
+def _forward_check(
+    csp: CSP,
+    variable: str,
+    assignment: Assignment,
+    domains: Domains,
+    tracer: Optional[Tracer] = None,
+) -> bool:
     """Prune neighbor domains after assigning `variable`."""
+    tracer = tracer or get_tracer()
     if not _enforce_unary_constraints(csp, domains, assignment):
         return False
 
+    pruned = 0
     for neighbor in csp.neighbors.get(variable, []):
         constraints = csp.constraints_between(variable, neighbor)
         if not constraints:
@@ -92,13 +115,19 @@ def _forward_check(csp: CSP, variable: str, assignment: Assignment, domains: Dom
             trial[variable] = assignment[variable]
             if not all(constraint.is_satisfied(trial) for constraint in constraints):
                 domains[neighbor].remove(neighbor_value)
+                pruned += 1
         if not domains[neighbor]:
             return False
+    if pruned:
+        tracer.log_forward_check(variable=variable, domains_pruned=pruned)
     return True
 
 
-def _ac3(csp: CSP, domains: Domains, assignment: Assignment) -> bool:
+def _ac3(
+    csp: CSP, domains: Domains, assignment: Assignment, tracer: Optional[Tracer] = None
+) -> bool:
     """Maintain arc consistency across all arcs."""
+    tracer = tracer or get_tracer()
     if not _enforce_unary_constraints(csp, domains, assignment):
         return False
 
@@ -107,14 +136,20 @@ def _ac3(csp: CSP, domains: Domains, assignment: Assignment) -> bool:
         for neighbor in csp.neighbors.get(var, []):
             queue.append((var, neighbor))
 
+    arcs_processed = 0
+    variables_affected = 0
     while queue:
         xi, xj = queue.popleft()
+        arcs_processed += 1
         if _revise(csp, xi, xj, domains, assignment):
+            variables_affected += 1
             if not domains[xi]:
                 return False
             for xk in csp.neighbors.get(xi, set()):
                 if xk != xj:
                     queue.append((xk, xi))
+    if arcs_processed:
+        tracer.log_ac3_run(variables_affected=variables_affected, arcs_processed=arcs_processed)
     return True
 
 

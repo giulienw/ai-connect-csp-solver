@@ -45,12 +45,32 @@ def reformat_to_grid(assignment: dict) -> dict:
         "rows": rows
     }
 
-def format_solution(solution: dict) -> dict:
+def _coerce_jsonable(value):
+    if isinstance(value, dict):
+        return {k: _coerce_jsonable(v) for k, v in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [_coerce_jsonable(v) for v in value]
+    if hasattr(value, "tolist"):
+        try:
+            return value.tolist()
+        except Exception:
+            pass
+    return value
+
+def format_solution(solution: dict, puzzle: dict | None = None) -> dict:
     if not solution:
-        return None
+        template = None
+        if isinstance(puzzle, dict):
+            template = puzzle.get("solution")
+        if template:
+            template = _coerce_jsonable(template)
+            header = template.get("header", [])
+            rows = template.get("rows", [])
+            return {"status": "unsolved", "header": header, "rows": rows}
+        return {"status": "unsolved", "header": [], "rows": []}
 
     grid = reformat_to_grid(solution)
-    return grid
+    return {"status": "solved", **grid}
 
 def write_results_csv(results, output_path: Path):
     with open(output_path, "w", newline="", encoding="utf-8") as f:
@@ -86,7 +106,7 @@ def main():
         try:
             solution = solve_puzzle(puzzle)
             puzzle_id = puzzle.get("id", "unknown")
-            grid = format_solution(solution)
+            grid = format_solution(solution, puzzle)
 
             summary = tracer.summary()
 

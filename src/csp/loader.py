@@ -7,7 +7,7 @@ import pandas as pd
 
 def load_puzzles(file_path: str) -> List[Dict[str, Any]]:
     """
-    Reads puzzles from a file. Handles .parquet and .jsonl formats.
+    Reads puzzles from a file. Handles .parquet, .csv, .json, and .jsonl formats.
     Returns a list of raw puzzle dictionaries.
     """
     if not os.path.exists(file_path):
@@ -82,6 +82,16 @@ def load_puzzles(file_path: str) -> List[Dict[str, Any]]:
             return [_normalize_record(r) for r in records]
         except Exception as e:
             print(f"Error reading parquet: {e}")
+            return []
+
+    # Case 1b: CSV File (Text)
+    if file_path.endswith(".csv"):
+        try:
+            df = pd.read_csv(file_path)
+            records = df.to_dict(orient="records")
+            return [_normalize_record(r) for r in records]
+        except Exception as e:
+            print(f"Error reading csv: {e}")
             return []
 
     # Case 2: JSON File (Text; array or object)

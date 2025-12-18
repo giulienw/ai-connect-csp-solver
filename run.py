@@ -189,7 +189,7 @@ def write_results_csv(results, output_path: Path):
         for r in results:
             writer.writerow([
                 r["id"],
-                json.dumps(r["grid_solution"], ensure_ascii=False, separators=(",", ":")),
+                json.dumps(r["grid_solution"], ensure_ascii=False),
                 r["steps"]
             ])
 
@@ -197,6 +197,16 @@ def main():
     args = parse_args()
     puzzles = []
     results = []
+
+    if args.sample_submission is None:
+        candidate = None
+        if args.input.is_file():
+            candidate = args.input.parent / "sample_submission.csv"
+        elif args.input.is_dir():
+            candidate = args.input / "sample_submission.csv"
+        if candidate and candidate.exists():
+            args.sample_submission = candidate
+
     templates = _load_sample_templates(args.sample_submission) if args.sample_submission else {}
 
     if args.input.is_file():
@@ -208,6 +218,33 @@ def main():
     else:
         raise ValueError(f"Input path {args.input} is neither file nor directory")
 
+    # If a sample submission is provided, align row count + ordering to it.
+    if templates:
+        puzzle_by_id = {}
+        for p in puzzles:
+            pid = p.get("id") if isinstance(p, dict) else None
+            if pid and pid not in puzzle_by_id:
+                puzzle_by_id[pid] = p
+
+        sample_ids = list(templates.keys())
+        extra_ids = [pid for pid in puzzle_by_id.keys() if pid not in templates]
+        if extra_ids:
+            print(
+                f"NOTE: Ignoring {len(extra_ids)} puzzles not present in sample submission "
+                f"(e.g. {extra_ids[:3]})."
+            )
+
+        missing_ids = [pid for pid in sample_ids if pid not in puzzle_by_id]
+        if missing_ids:
+            print(
+                f"WARNING: {len(missing_ids)} ids from sample submission were not found in input "
+                f"(e.g. {missing_ids[:3]}). These will be emitted as unsolved."
+            )
+
+        puzzles = [
+            puzzle_by_id.get(pid, {"id": pid, "puzzle": "", "size": "0*0"})
+            for pid in sample_ids
+        ]
 
     for puzzle in puzzles:
         reset_tracer()

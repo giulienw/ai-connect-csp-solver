@@ -10,7 +10,7 @@ from .model import CSP, Variable, Constraint
 # Normalization / utilities
  
 
-_STOP_CAPS = {
+_STOP_CAPS = {   # Stopwords for words that are capitalized but unlikely to be names)
     "There",
     "Each",
     "House",
@@ -66,6 +66,8 @@ _NUMBER_WORDS = {
     "ten": 10,
 }
 
+#Filtering out variations in words
+
 def _norm(s: str) -> str:
     return re.sub(r"\s+", " ", s.strip()).lower()
 
@@ -81,7 +83,7 @@ def _clean_value_phrase(s: str) -> str:
     return _strip_punct(_strip_article(s)).strip()
 
 
-def _parse_num_houses(puzzle_json: Dict[str, Any], puzzle_text: str) -> int:
+def _parse_num_houses(puzzle_json: Dict[str, Any], puzzle_text: str) -> int: #Number of houses
     size_str = puzzle_json.get("size", "0*0")
     num_houses: Optional[int] = None
 

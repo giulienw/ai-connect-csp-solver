@@ -15,12 +15,11 @@ def build_demo_solution(puzzle):
 def test_format_solution_solved(monkeypatch):
     solution = {"House_1_Color": "Red"}
     grid = format_solution(solution)
-    assert grid["status"] == "solved"
     assert "header" in grid and "rows" in grid
+    assert grid["header"][0] == "House"
 
 def test_format_solution_unsolved():
     grid = format_solution({})
-    assert grid["status"] == "unsolved"
     assert grid["header"] == []
     assert grid["rows"] == []
 

@@ -86,6 +86,7 @@ traces/**/*.csv
 submission*.csv
 out*.csv
 test_trace_output.csv
+Test_100_Puzzles.csv
 
 # IPython
 profile_default/

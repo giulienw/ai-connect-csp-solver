@@ -45,12 +45,14 @@ def parse_puzzle(puzzle_json: Dict[str, Any]) -> CSP:
 
     def _canonical_category_name(raw: str) -> str:
         lower = raw.lower().strip(" -")
-        if "name" in lower or "person" in lower or "people" in lower or "friend" in lower:
+        if "name" in lower or "names" in lower:
             return "Name"
         if "color" in lower:
             return "Color"
-        if "nationality" in lower:
+        if "nationality" in lower or "nationalities" in lower:
             return "Nationality"
+        if "book" in lower and ("genre" in lower or "genres" in lower):
+            return "BookGenre"
         if "book" in lower:
             return "Book"
         if "food" in lower or "lunch" in lower:
@@ -61,8 +63,14 @@ def parse_puzzle(puzzle_json: Dict[str, Any]) -> CSP:
             return "Animal"
         if "occupation" in lower or "job" in lower:
             return "Occupation"
+        if "phone" in lower and ("model" in lower or "models" in lower):
+            return "PhoneModel"
         if "phone" in lower:
             return "Phone"
+        if "car" in lower and ("model" in lower or "models" in lower):
+            return "CarModel"
+        if "sport" in lower or "sports" in lower:
+            return "Sport"
         if "music" in lower:
             return "Music"
         if "height" in lower:
@@ -309,15 +317,23 @@ def parse_puzzle(puzzle_json: Dict[str, Any]) -> CSP:
         if len(refs) >= 2:
             if any(k in lowered for k in ("directly left of", "immediately to the left of", "immediately left of")):
                 return [_positional_constraint(refs[0], refs[1], "directly_left_of", cleaned)]
+            if any(k in lowered for k in ("directly right of", "immediately to the right of", "immediately right of")):
+                return [_positional_constraint(refs[1], refs[0], "directly_left_of", cleaned)]
             if "next to each other" in lowered:
                 return [_positional_constraint(refs[0], refs[1], "next_to", cleaned)]
             if "one house between" in lowered:
+                return [_positional_constraint(refs[0], refs[1], "one_between", cleaned)]
+            if "one house in between" in lowered:
                 return [_positional_constraint(refs[0], refs[1], "one_between", cleaned)]
             if "two houses between" in lowered:
                 return [_positional_constraint(refs[0], refs[1], "two_between", cleaned)]
             if "somewhere" in lowered and "to the left of" in lowered:
                 return [_positional_constraint(refs[0], refs[1], "left_of", cleaned)]
             if "somewhere" in lowered and "to the right of" in lowered:
+                return [_positional_constraint(refs[0], refs[1], "right_of", cleaned)]
+            if "to the left of" in lowered and "somewhere" not in lowered:
+                return [_positional_constraint(refs[0], refs[1], "left_of", cleaned)]
+            if "to the right of" in lowered and "somewhere" not in lowered:
                 return [_positional_constraint(refs[0], refs[1], "right_of", cleaned)]
 
         # "X does not live in the Y house" (typically name + color)

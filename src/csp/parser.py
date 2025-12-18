@@ -313,6 +313,20 @@ def parse_puzzle(puzzle_json: Dict[str, Any]) -> CSP:
         if len(refs) >= 2 and any(k in lowered for k in (" contains ", " has ", " contains the", " has the")):
             return _same_house_constraints(refs[0], refs[1], negate=False, clue=cleaned)
 
+        # "<Name> owns/keeps/uses/drives <value>"
+        if len(refs) >= 2 and any(k in lowered for k in (" owns ", " keeps ", " uses ", " drives ", " rides ")):
+            name_ref = next((r for r in refs if r.category == "Name"), None)
+            other_ref = next((r for r in refs if r.category != "Name"), None)
+            if name_ref and other_ref:
+                return _same_house_constraints(name_ref, other_ref, negate=False, clue=cleaned)
+
+        # Negative ownership (rare but safe)
+        if len(refs) >= 2 and any(k in lowered for k in (" does not own ", " doesn't own ")):
+            name_ref = next((r for r in refs if r.category == "Name"), None)
+            other_ref = next((r for r in refs if r.category != "Name"), None)
+            if name_ref and other_ref:
+                return _same_house_constraints(name_ref, other_ref, negate=True, clue=cleaned)
+
         # Positional relations
         if len(refs) >= 2:
             if any(k in lowered for k in ("directly left of", "immediately to the left of", "immediately left of")):

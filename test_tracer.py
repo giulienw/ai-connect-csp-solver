@@ -81,13 +81,11 @@ def test_tracer_captures_steps():
     # Cleanup
     output_path.unlink()
     print(f"\n✓ Cleanup: Removed test CSV file")
-    
-    return True
+    return None
 
 
 if __name__ == "__main__":
-    success = test_tracer_captures_steps()
-    if success:
-        print("\n" + "=" * 60)
-        print("✓ ALL TESTS PASSED - Tracer works correctly!")
-        print("=" * 60)
+    test_tracer_captures_steps()
+    print("\n" + "=" * 60)
+    print("✓ ALL TESTS PASSED - Tracer works correctly!")
+    print("=" * 60)

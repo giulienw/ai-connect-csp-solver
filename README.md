@@ -2,6 +2,14 @@
 
 Starter layout for building a CSP solver for logic grid (Zebra) puzzles and the related Kaggle challenge.
 
+## Quickstart (Kaggle)
+
+- Put the ZebraLogicBench parquet(s) into your Kaggle Notebook as an input dataset.
+- Run:
+  - `python run.py /kaggle/input/<dataset>/test.parquet --output /kaggle/working/submission.csv`
+- Preview:
+  - `head -n 5 /kaggle/working/submission.csv`
+
 ## Layout
 - `solver.py`: Public solve interface that will call into `src/csp/`.
 - `run.py`: CLI stub to load puzzles, run the solver, and write results.
